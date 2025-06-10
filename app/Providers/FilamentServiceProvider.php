@@ -71,7 +71,7 @@ class FilamentServiceProvider extends ServiceProvider
         if (!\Schema::hasTable('labs')) {
             return;
         }
-
+        
         // Group navigasi utama
         Filament::registerNavigationGroups([
             NavigationGroup::make()->label('Data Management'),
