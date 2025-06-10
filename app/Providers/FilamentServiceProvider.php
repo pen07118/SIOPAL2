@@ -59,9 +59,9 @@ class FilamentServiceProvider extends ServiceProvider
     //     );
     // }
 
-    public function boot(): void
+    public function bool(): void
     {
-        // Daftarkan navigasi langsung saat boot (tidak hanya saat serving)
+        // Daftarkan navigasi langsung saat boot (tidak hanya saat serving)ss
         $this->registerSidebarMenus();
     }
 
